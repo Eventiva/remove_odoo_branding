@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- Remove "Powered by Odoo" from HR Attendance Public Kiosk -->
+        <template id="hr_attendance_kiosk_no_branding"
+                  inherit_id="hr_attendance.public_kiosk_app"
+                  name="Remove Odoo Branding from HR Attendance Kiosk"
+                  active="False"
+                  customize_show="True">
+            <xpath expr="//div[contains(., 'Powered by')]" position="replace">
+                <!-- Powered by Odoo footer removed -->
+            </xpath>
+        </template>
+    </data>
+</odoo>
