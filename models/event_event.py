@@ -6,6 +6,7 @@ from odoo import models
 
 class Event(models.Model):
     _inherit = 'event.event'
+    _description = 'Event (Remove Branding)'
 
     def _get_printing_sponsor_text(self):
         """Override to remove 'Powered by Odoo' from event badge printing"""
