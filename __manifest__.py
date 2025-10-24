@@ -40,6 +40,7 @@ Additionally, this module allows you to add a standardized custom footer to all 
         'mass_mailing_crm',
         'mass_mailing_sale',
         'point_of_sale',
+        'pos_sale',
         'portal',
         'website_crm_partner_assign',
         'website_profile',
