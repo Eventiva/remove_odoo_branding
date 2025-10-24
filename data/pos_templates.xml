@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <data>
+    <data noupdate="1">
         <!-- Remove "Powered by Odoo" from Point of Sale receipt -->
         <template id="pos_receipt_no_branding"
             inherit_id="point_of_sale.order_receipt"
             name="Remove Odoo Branding from POS Receipt"
             active="False"
-            customize_show="True"
-            optional="enabled">
+            customize_show="True">
             <xpath expr="//p[contains(., 'Powered by')]" position="replace">
                 <!-- Powered by Odoo footer removed -->
             </xpath>
@@ -18,8 +17,7 @@
             inherit_id="point_of_sale.customer_display"
             name="Remove Odoo Branding from POS Customer Display"
             active="False"
-            customize_show="True"
-            optional="enabled">
+            customize_show="True">
             <xpath expr="//div[contains(., 'Powered by')]" position="replace">
                 <!-- Powered by Odoo footer removed -->
             </xpath>

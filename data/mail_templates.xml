@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <data>
+    <data noupdate="1">
         <!-- auth_signup module templates -->
         <template id="auth_signup_reset_password_no_branding"
             inherit_id="auth_signup.reset_password_email"
             name="Remove Odoo Branding from Reset Password Email"
             active="False"
-            customize_show="True"
-            optional="enabled">
+            customize_show="True">
             <xpath expr="//td[p[contains(., 'Powered by')]]" position="replace">
                 <!-- Powered by Odoo footer removed -->
             </xpath>
@@ -17,8 +16,7 @@
             inherit_id="auth_signup.set_password_email"
             name="Remove Odoo Branding from Set Password Email"
             active="False"
-            customize_show="True"
-            optional="enabled">
+            customize_show="True">
             <xpath expr="//td[p[contains(., 'Powered by')]]" position="replace">
                 <!-- Powered by Odoo footer removed -->
             </xpath>
@@ -29,8 +27,7 @@
             inherit_id="im_livechat.livechat_email_template"
             name="Remove Odoo Branding from Livechat Email"
             active="False"
-            customize_show="True"
-            optional="enabled">
+            customize_show="True">
             <xpath expr="//td[p[contains(., 'Powered by')]]" position="replace">
                 <!-- Powered by Odoo footer removed -->
             </xpath>
@@ -41,8 +38,7 @@
             inherit_id="website_slides.mail_template_slide_channel_completed"
             name="Remove Odoo Branding from Slides Email"
             active="False"
-            customize_show="True"
-            optional="enabled">
+            customize_show="True">
             <xpath expr="//p[contains(., 'Powered by')]" position="replace">
                 <!-- Powered by Odoo footer removed -->
             </xpath>
@@ -53,8 +49,7 @@
             inherit_id="website_crm_partner_assign.interested_partner_mail_template"
             name="Remove Odoo Branding from CRM Partner Assign Email"
             active="False"
-            customize_show="True"
-            optional="enabled">
+            customize_show="True">
             <xpath expr="//p[contains(., 'Powered by')]" position="replace">
                 <!-- Powered by Odoo footer removed -->
             </xpath>
@@ -65,8 +60,7 @@
             inherit_id="website_profile.mail_template_data_notification_user"
             name="Remove Odoo Branding from Profile Notification Email"
             active="False"
-            customize_show="True"
-            optional="enabled">
+            customize_show="True">
             <xpath expr="//p[contains(., 'Powered by')]" position="replace">
                 <!-- Powered by Odoo footer removed -->
             </xpath>
@@ -77,8 +71,7 @@
             inherit_id="gamification.email_template_badge_received"
             name="Remove Odoo Branding from Gamification Email"
             active="False"
-            customize_show="True"
-            optional="enabled">
+            customize_show="True">
             <xpath expr="//td[p[contains(., 'Powered by')]]" position="replace">
                 <!-- Powered by Odoo footer removed -->
             </xpath>
@@ -89,8 +82,7 @@
             inherit_id="lunch.lunch_order_mail_template"
             name="Remove Odoo Branding from Lunch Order Email"
             active="False"
-            customize_show="True"
-            optional="enabled">
+            customize_show="True">
             <xpath expr="//td[p[contains(., 'Powered by')]]" position="replace">
                 <!-- Powered by Odoo footer removed -->
             </xpath>
@@ -101,8 +93,7 @@
             inherit_id="hr_expense.mail_template_data_expense_approval"
             name="Remove Odoo Branding from Expense Approval Email"
             active="False"
-            customize_show="True"
-            optional="enabled">
+            customize_show="True">
             <xpath expr="//p[contains(., 'Powered by')]" position="replace">
                 <!-- Powered by Odoo footer removed -->
             </xpath>
@@ -113,8 +104,7 @@
             inherit_id="digest.digest_mail_main"
             name="Remove Odoo Branding from Digest Email"
             active="False"
-            customize_show="True"
-            optional="enabled">
+            customize_show="True">
             <xpath expr="//div[contains(., 'Powered by')][@class='o_mail_text_center']"
                 position="replace">
                 <!-- Powered by Odoo footer removed -->
@@ -126,8 +116,7 @@
             inherit_id="crm.crm_template_mail_quote"
             name="Remove Odoo Branding from CRM Demo Email"
             active="False"
-            customize_show="True"
-            optional="enabled">
+            customize_show="True">
             <xpath expr="//tr[td[contains(., 'Powered by')]]" position="replace">
                 <!-- Powered by Odoo footer removed -->
             </xpath>
@@ -138,8 +127,7 @@
             inherit_id="mass_mailing_crm.crm_tag_mailing_body_html"
             name="Remove Odoo Branding from Mass Mailing CRM Demo"
             active="False"
-            customize_show="True"
-            optional="enabled">
+            customize_show="True">
             <xpath expr="//tr[td[contains(., 'Powered by')]]" position="replace">
                 <!-- Powered by Odoo footer removed -->
             </xpath>
@@ -150,8 +138,7 @@
             inherit_id="mass_mailing_sale.sale_order_mailing_body_html"
             name="Remove Odoo Branding from Mass Mailing Sale Demo"
             active="False"
-            customize_show="True"
-            optional="enabled">
+            customize_show="True">
             <xpath expr="//tr[td[contains(., 'Powered by')]]" position="replace">
                 <!-- Powered by Odoo footer removed -->
             </xpath>

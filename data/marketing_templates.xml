@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <data>
+    <data noupdate="1">
         <!-- Remove "Powered by Odoo" from Marketing Card -->
         <template id="marketing_card_no_branding"
             inherit_id="marketing_card.card_frontend"
             name="Remove Odoo Branding from Marketing Card"
             active="False"
-            customize_show="True"
-            optional="enabled">
+            customize_show="True">
             <xpath expr="//span[contains(., 'Powered By')]" position="replace">
                 <!-- Powered by Odoo footer removed -->
             </xpath>
@@ -18,8 +17,7 @@
             inherit_id="mass_mailing.mass_mailing_mail_layout"
             name="Remove Odoo Branding from Mass Mailing"
             active="False"
-            customize_show="True"
-            optional="enabled">
+            customize_show="True">
             <xpath expr="//p[contains(., 'Powered by')]" position="replace">
                 <!-- Powered by Odoo footer removed -->
             </xpath>
@@ -30,8 +28,7 @@
             inherit_id="im_livechat.chat_channel_script"
             name="Remove Odoo Branding from Livechat Channel"
             active="False"
-            customize_show="True"
-            optional="enabled">
+            customize_show="True">
             <xpath expr="//div[strong[contains(., 'Odoo')]]" position="replace">
                 <!-- Powered by Odoo footer removed -->
             </xpath>
