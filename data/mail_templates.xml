@@ -33,38 +33,39 @@
             </xpath>
         </template>
 
-        <!-- website_slides module templates -->
+        <!-- Temporarily commented out - install these modules first if needed:
+             website_slides, website_crm_partner_assign, website_profile
+
         <template id="website_slides_mail_no_branding"
             inherit_id="website_slides.mail_template_slide_channel_completed"
             name="Remove Odoo Branding from Slides Email"
             active="False"
             customize_show="True">
             <xpath expr="//p[contains(., 'Powered by')]" position="replace">
-                <!-- Powered by Odoo footer removed -->
+                Powered by Odoo footer removed
             </xpath>
         </template>
 
-        <!-- website_crm_partner_assign module templates -->
         <template id="website_crm_partner_assign_no_branding"
             inherit_id="website_crm_partner_assign.interested_partner_mail_template"
             name="Remove Odoo Branding from CRM Partner Assign Email"
             active="False"
             customize_show="True">
             <xpath expr="//p[contains(., 'Powered by')]" position="replace">
-                <!-- Powered by Odoo footer removed -->
+                Powered by Odoo footer removed
             </xpath>
         </template>
 
-        <!-- website_profile module templates -->
         <template id="website_profile_no_branding"
             inherit_id="website_profile.mail_template_data_notification_user"
             name="Remove Odoo Branding from Profile Notification Email"
             active="False"
             customize_show="True">
             <xpath expr="//p[contains(., 'Powered by')]" position="replace">
-                <!-- Powered by Odoo footer removed -->
+                Powered by Odoo footer removed
             </xpath>
         </template>
+        -->
 
         <!-- gamification module templates -->
         <template id="gamification_badge_no_branding"

@@ -42,9 +42,10 @@ Additionally, this module allows you to add a standardized custom footer to all 
         'mass_mailing_sale',
         'point_of_sale',
         'pos_sale',
-        'website_crm_partner_assign',
-        'website_profile',
-        'website_slides',
+        # Commented out modules that may not be installed:
+        # 'website_crm_partner_assign',
+        # 'website_profile',
+        # 'website_slides',
     ],
     'data': [
         'security/ir.model.access.csv',
