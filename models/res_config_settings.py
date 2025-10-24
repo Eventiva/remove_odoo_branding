@@ -15,3 +15,4 @@ class ResConfigSettings(models.TransientModel):
              "emails sent from helpdesk, CRM, sales, event tracks, and other modules."
     )
 
+

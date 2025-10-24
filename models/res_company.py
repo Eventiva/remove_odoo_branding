@@ -14,3 +14,4 @@ class ResCompany(models.Model):
              "company contact details. Supports HTML formatting."
     )
 
+

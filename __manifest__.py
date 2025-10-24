@@ -26,6 +26,7 @@ Additionally, this module allows you to add a standardized custom footer to all 
     'depends': [
         'mail',
         'web',
+        'event',
     ],
     'data': [
         'security/ir.model.access.csv',
